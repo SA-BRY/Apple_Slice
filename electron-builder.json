@@ -1,0 +1,29 @@
+{
+  "appId": "com.n-ziermann.apple_slice",
+  "files": [
+    "dist-electron/**/*",
+    "dist-react/**/*"
+  ],
+  "extraResources": [
+    "src/assets/**"
+  ],
+  "mac": {
+    "target": [
+      "dmg",
+      "zip"
+    ],
+    "category": "public.app-category.utilities",
+    "hardenedRuntime": false,
+    "gatekeeperAssess": false
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  },
+  "win": {
+    "target": [
+      "portable",
+      "msi"
+    ]
+  }
+}
