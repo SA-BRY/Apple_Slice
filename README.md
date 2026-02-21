@@ -57,7 +57,7 @@ The goal of this project is to create a fast, simple, and OS-friendly clipboard 
 
 ## 📷 Screenshots
 
-*Add screenshots of your app here once available.*
+
 
 
 
