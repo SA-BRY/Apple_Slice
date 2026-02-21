@@ -67,7 +67,6 @@ app.whenReady().then(() => {
 
   //mainWindow.loadURL("http://localhost:5123");
 
-  // Use app.getAppPath() for reliable path resolution in both dev and production
   const appPath = app.getAppPath();
   mainWindow.loadFile(path.join(appPath, "dist-react", "index.html"));
 });
